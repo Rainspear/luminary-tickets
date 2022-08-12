@@ -1,0 +1,13 @@
+### List all ticketse
+GET http://localhost:3000/tickets
+
+### Get single ticket
+GET http://localhost:3000/tickets/123
+
+### create new tickets
+POST http://localhost:3000/tickets
+Content-Type: application/json
+
+{
+  "content": "Hello tickets"
+}
